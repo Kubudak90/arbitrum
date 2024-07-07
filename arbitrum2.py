@@ -4,7 +4,7 @@ from web3 import Web3
 from eth_account import Account
 
 # Arbitrum node sağlayıcısına bağlanma
-arbitrum_url = 'https://arb-mainnet.g.alchemy.com/v2/bXL1SdebaBf55WDft6_7NFVDqZoa0c0n'
+arbitrum_url = 'https://arb-mainnet.g.alchemy.com/v2/YOUR_API_KEY'
 w3 = Web3(Web3.HTTPProvider(arbitrum_url))
 
 def generate_random_private_key():
